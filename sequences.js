@@ -5,17 +5,17 @@ var radius = Math.min(width, height) / 2;
 
 // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
 var b = {
-  w: 75, h: 30, s: 3, t: 10
+  w: 150, h: 30, s: 3, t: 10
 };
 
 // Mapping of step names to colors.
 var colors = {
-  "home": "#5687d1",
-  "product": "#7b615c",
-  "search": "#de783b",
-  "account": "#6ab975",
-  "other": "#a173d1",
-  "end": "#bbbbbb"
+  "LandingPageBot": "#5687d1",
+  "LandingPageBotEMEA": "#7b615c",
+  "Conversation": "#de783b",
+  "Goal": "#6ab975",
+  "CQL": "#a173d1",
+  "Meeting": "#bbbbbb"
 };
 
 // Total size of all segments; we set this later, after loading the data.
@@ -222,7 +222,7 @@ function drawLegend() {
 
   // Dimensions of legend item: width, height, spacing, radius of rounded rect.
   var li = {
-    w: 75, h: 30, s: 3, r: 3
+    w:150, h: 30, s: 3, r: 3
   };
 
   var legend = d3.select("#legend").append("svg:svg")
