@@ -1,0 +1,50 @@
+{
+  "name" : "TotalPlaybookFires",
+  "children":
+  [{
+   "name": "LandingPageBot",
+   "children": [
+    {
+     "name": "Conversation",
+     "children": [
+      {"name": "Goal",
+        "children": [
+          {
+            "name": "CQL",
+            "children": [
+              {"name": "Meeting", "size": 13},
+              {"name": "DropOff", "size": 107}
+            ]
+          },
+          {"name": "DropOff", "size": 279}
+        ]},
+      {"name": "DropOff", "size": 417}
+     ]
+    },
+    {"name": "DropOff", "size": 20584}
+   ]
+  },
+  {
+    "name": "LandingPageBotEMEA",
+    "children": [
+     {
+      "name": "Conversation",
+      "children": [
+       {"name": "Goal",
+         "children": [
+           {
+             "name": "CQL",
+             "children": [
+               {"name": "Meeting", "size": 10},
+               {"name": "DropOff", "size": 3}
+             ]
+           },
+           {"name": "DropOff", "size": 15}
+         ]},
+       {"name": "DropOff", "size": 21}
+      ]
+     },
+     {"name": "DropOff", "size": 2551}
+    ]
+   }]
+}
