@@ -1,0 +1,96 @@
+{
+  "name": "Playbooks",
+  "children" :
+  [
+    {
+      "name": "LandingPageBot",
+      "children": [
+        {
+          "name": "Sent",
+          "children": [
+            {
+              "name": "Conversations",
+              "children": [
+                {
+                  "name": "Goals Reached",
+                  "children": [
+                    {
+                      "name": "CQLs",
+                      "children": [
+                        {
+                          "name": "Meetings Booked",
+                          "value": 234
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Dropoff",
+                      "value": 244
+                    }
+                  ]
+                },
+                {
+                  "name": "Dropoff",
+                  "value": 1022
+                }
+              ]
+            },
+            {
+              "name": "Dropoff",
+              "value": 1200
+            }
+          ]
+        },
+        {
+          "name": "Dropoff",
+          "value": 75100
+        }
+      ]
+    },
+    {
+      "name": "LandingPageBotEMEA",
+      "children": [
+        {
+          "name": "Sent",
+          "children": [
+            {
+              "name": "Conversations",
+              "children": [
+                {
+                  "name": "Goals Reached",
+                  "children": [
+                    {
+                      "name": "CQLs",
+                      "children": [
+                        {
+                          "name": "Meetings Booked",
+                          "value": 35
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Dropoff",
+                      "value": 28
+                    }
+                  ]
+                },
+                {
+                  "name": "Dropoff",
+                  "value": 75
+                }
+              ]
+            },
+            {
+              "name": "Dropoff",
+              "value": 90
+            }
+          ]
+        },
+        {
+          "name": "Dropoff",
+          "value": 10572
+        }
+      ]
+    }
+  ]
+}
