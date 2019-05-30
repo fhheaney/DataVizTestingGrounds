@@ -10,7 +10,8 @@ const m0 = {
     {
       inputs: ["md"],
       value: (function(md){return(
-md`# Zoomable Icicle`)})
+md`# Zoomable Icicle`
+)})
     },
     {
       name: "chart",
@@ -22,7 +23,7 @@ md`# Zoomable Icicle`)})
 
   const svg = d3.select(DOM.svg(width, height))
       .style("width", "100%")
-      .style("height", "900px")
+      .style("height", "auto")
       .style("overflow", "hidden")
       .style("font", "15px sans-serif");
 
@@ -105,7 +106,7 @@ d3.json("./data.json")
 data => {
   const root = d3.hierarchy(data)
       .sum(d => d.value)
-      .sort((a, b) => b.height - a.height || b.value - a.value);
+      .sort((a, b) => b.height - a.height || b.value - a.value);  
   return d3.partition()
       .size([height, (root.height + 1) * width / 3])
     (root);
