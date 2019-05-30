@@ -9,16 +9,17 @@
     <script data-require="ui-bootstrap@*" data-semver="2.5.0" src="https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-tpls-2.5.0.js"></script>
     <script data-require="jquery@*" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
 
   <body>
  <script type="module">
 
-import {Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
+import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
 import notebook from "./script.js";
 
 
-Runtime.load(notebook);
+Runtime.load(notebook, Inspector.into(document.body));
 
 </script>
   </body>
