@@ -154,4 +154,5 @@ const notebook = {
   modules: [m0]
 };
 
+console.log("updated");
 export default notebook;
