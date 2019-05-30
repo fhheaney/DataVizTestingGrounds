@@ -156,4 +156,4 @@ const notebook = {
   modules: [m0]
 };
 
-export default notebook;
+export default notebook
