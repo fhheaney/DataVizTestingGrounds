@@ -98,7 +98,7 @@ This variant of an [icicle diagram](/@mbostock/d3-icicle) shows only three layer
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("./flare.json")
+d3.json("./data.json")
 )})
     },
     {
@@ -156,4 +156,4 @@ const notebook = {
   modules: [m0]
 };
 
-export default notebook
+export default notebook;
