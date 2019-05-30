@@ -10,7 +10,9 @@ const m0 = {
     {
       inputs: ["md"],
       value: (function(md){return(
-md`# Zoomable Icicle`
+md`# Zoomable Icicle
+
+This variant of an [icicle diagram](/@mbostock/d3-icicle) shows only three layers of the hierarchy at a time. Click a node to zoom in, or the left column to zoom out. Compare to a [sunburst](/@d3/zoomable-sunburst).`
 )})
     },
     {
@@ -96,7 +98,7 @@ md`# Zoomable Icicle`
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("./data.json")
+d3.json("./flare.json")
 )})
     },
     {
@@ -154,5 +156,4 @@ const notebook = {
   modules: [m0]
 };
 
-console.log("updated");
 export default notebook;
