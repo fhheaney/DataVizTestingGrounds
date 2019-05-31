@@ -1,9 +1,11 @@
 {
   "name": "Playbooks",
+  "color":"#007bc7",
   "children" :
   [
     {
       "name": "LandingPageBot",
+      "color":"#005184",
       "children": [
         {
           "name": "Sent",
@@ -49,6 +51,7 @@
     },
     {
       "name": "LandingPageBotEMEA",
+      "color":"#45569B",
       "children": [
         {
           "name": "Sent",

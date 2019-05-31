@@ -12,7 +12,7 @@ const m0 = {
       value: (function(md){return(
 md`# Zoomable Icicle
 
-This variant of an [icicle diagram](/@mbostock/d3-icicle) shows only three layers of the hierarchy at a time. Click a node to zoom in, or the left column to zoom out. Compare to a [sunburst](/@d3/zoomable-sunburst).`
+Click on a piece to zoom in, and click the left piece to zoom back out`
 )})
     },
     {
@@ -25,7 +25,7 @@ This variant of an [icicle diagram](/@mbostock/d3-icicle) shows only three layer
 
   const svg = d3.select(DOM.svg(width, height))
       .style("width", "100%")
-      .style("height", "auto")
+      .style("height", "900px")
       .style("overflow", "hidden")
       .style("font", "15px sans-serif");
 
@@ -89,7 +89,7 @@ This variant of an [icicle diagram](/@mbostock/d3-icicle) shows only three layer
   function labelVisible(d) {
     return d.y1 <= width && d.y0 >= 0 && d.x1 - d.x0 > 16;
   }
-  
+
   return svg.node();
 }
 )
