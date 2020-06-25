@@ -34,7 +34,7 @@
       }();
       drift.SNIPPET_VERSION = '0.3.1';
 
-      if (Cookie.get('DriftUseAlternativeWidgetEmbed')) {
+      if (window.parent.Cookies.get('DriftUseAlternativeWidgetEmbed')) {
         drift.load('multi-widget-embed-test-dev')
       }
       else {
