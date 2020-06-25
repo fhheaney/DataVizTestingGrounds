@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Sequences sunburst</title>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
     <link rel="stylesheet" type="text/css" href="sequences.css"/>
@@ -32,7 +33,14 @@
         }
       }();
       drift.SNIPPET_VERSION = '0.3.1';
-      drift.load('fyg65ic99kbf-dev');
+
+      if (Cookie.get('DriftUseAlternativeWidgetEmbed')) {
+        drift.load('multi-widget-embed-test-dev')
+      }
+      else {
+        drift.load('fyg65ic99kbf-dev');
+      }
+
       </script>
       <!-- End of Async Drift Code -->
   </head>
