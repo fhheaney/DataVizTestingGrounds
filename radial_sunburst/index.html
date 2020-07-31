@@ -38,14 +38,14 @@
         drift.load('multi-widget-embed-test-dev')
         console.log("Custom uploaded widget!")
       }
-      if(window.parent.Cookies.get('DriftUseGerman')){
+      else if(window.parent.Cookies.get('DriftUseGerman')){
         drift.config({
           locale: "de-DE"
         });
         drift.load('fyg65ic99kbf-dev');
         console.log("German!")
       }
-      if(window.parent.Cookies.get('DriftUseChinese')){
+      else if(window.parent.Cookies.get('DriftUseChinese')){
         drift.config({
           locale: "zh"
         });
