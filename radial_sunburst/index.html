@@ -36,9 +36,24 @@
 
       if (window.parent.Cookies.get('DriftUseAlternativeWidgetEmbed')) {
         drift.load('multi-widget-embed-test-dev')
+        console.log("Custom uploaded widget!")
+      }
+      if(window.parent.Cookies.get('DriftUseGerman')){
+        drift.config({
+          locale: "de-DE"
+        });
+        console.log("German!")
+      }
+      if(window.parent.Cookies.get('DriftUseChinese)){
+        drift.config({
+          locale: "zh"
+        });
+        drift.load('mvktsimmdin7-dev');
+        console.log("Chinese and alt widget!")
       }
       else {
         drift.load('fyg65ic99kbf-dev');
+        console.log("Default widget!")
       }
 
       </script>
