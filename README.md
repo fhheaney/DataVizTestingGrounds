@@ -1,3 +1,7 @@
+# Multi language demo pagez
+<li><a href="https://fhheaney.github.io/DataVizTestingGrounds/multi_lang_widget_demo/france">French Page</a></li>
+<li><a href="https://fhheaney.github.io/DataVizTestingGrounds/multi_lang_widget_demo/germany">Germany Page</a></li>
+
 # DataVizTestingGrounds
 
 <li><a href="https://fhheaney.github.io/DataVizTestingGrounds/radial_sunburst/index.html">Static Radial Sunburst</a></li>
