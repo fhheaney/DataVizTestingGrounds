@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
     <link rel="stylesheet" type="text/css" href="sequences.css"/>
    <!-- Start of Async Drift Code -->
-<!--       <script>
+     <script>
       "use strict";
 
       !function() {
@@ -33,7 +33,7 @@
         }
       }();
       drift.SNIPPET_VERSION = '0.3.1';
-
+       
       if (window.parent.Cookies.get('DriftUseAlternativeWidgetEmbed')) {
         drift.load('multi-widget-embed-test-dev')
         console.log("Custom uploaded widget!")
@@ -52,9 +52,16 @@
         drift.load('mvktsimmdin7-dev');
         console.log("Chinese and alt widget!")
       }
-      else {
+      else if(window.parent.Cookies.get('DriftUseDefault)) {
         drift.load('hwb2hm5g8pf6-dev');
         console.log("QA org 1 widget!")
+      }
+      else {
+        drift.config({
+          locale: "de-DE"
+        });
+        drift.load('fyg65ic99kbf-dev');
+        console.log("German!")
       }
 
       </script> -->
@@ -67,9 +74,9 @@
           
 //         }
 //         else {
-          window.drift=window.drift||function(){(drift.q=drift.q||[]).push(arguments)};
-          drift.config({locale: "de"});
-          drift('init', '2igfi2euhm8g-dev', { defer: true, eager: false  });
+//           window.drift=window.drift||function(){(drift.q=drift.q||[]).push(arguments)};
+//           drift.config({locale: "de"});
+//           drift('init', '2igfi2euhm8g-dev', { defer: true, eager: false  });
           
 //         }
       </script>
