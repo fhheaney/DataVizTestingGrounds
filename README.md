@@ -1,3 +1,10 @@
+# Workspace Geo-targeting demo pagez
+<li><a href="https://fhheaney.github.io/DataVizTestingGrounds/workspaceGeoTargetingTesting/us_homepage/">US - Acme Homepage</a></li>
+<li><a href="https://fhheaney.github.io/DataVizTestingGrounds/workspaceGeoTargetingTesting/us_pricingPage/">US - Acme Pricing Page</a></li>
+<li><a href="https://fhheaney.github.io/DataVizTestingGrounds/workspaceGeoTargetingTesting/japan_homepage/">Japan - Acme Homepage</a></li>
+<li><a href="https://fhheaney.github.io/DataVizTestingGrounds/workspaceGeoTargetingTesting/uk_homepage/">UK - Acme Homepage</a></li>
+
+
 # Multi language demo pagez
 <li><a href="https://fhheaney.github.io/DataVizTestingGrounds/multi_lang_widget_demo/france">French Page</a></li>
 <li><a href="https://fhheaney.github.io/DataVizTestingGrounds/multi_lang_widget_demo/germany">Germany Page</a></li>
